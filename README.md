@@ -1,11 +1,12 @@
 **Feature Engineering** is the process of creating, transforming, or selecting input variables (features) from raw data to improve the performance of machine learning models.
 
-Why It Matters:
+**Why It Matters:**
 
-Better features = Better model performance ✅
+Better features = Better model performance 
+
 It helps models understand patterns more clearly and make more accurate predictions.
 
-Key Steps in Feature Engineering:
+**Key Steps in Feature Engineering:**
 
 Creating new features   ---	Combine "date of birth" and "current date" to create "age"
 
