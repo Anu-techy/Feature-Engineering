@@ -57,7 +57,7 @@ Correlation Matrix	Checks pairwise correlation between features
 
 VIF (Variance Inflation Factor)	Measures how much a feature is correlated with others — VIF > 5 or 10 is a red flag
 
-============================================================================
+===========================================================
 
 **Feature Selection using VIF(Variance Inflation Factor)**
 
