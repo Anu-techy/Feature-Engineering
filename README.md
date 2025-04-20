@@ -35,7 +35,30 @@ For categorical variables, correlation should not be used for feature selection
 
 Understand r/p b/w causation vs correlation
 
+**Multicollinearity** occurs when two or more independent variables (features) in a regression model are highly correlated with each other.
+
+In simple terms: the model is getting the same information from multiple features, which confuses it.**
+
+**Cons of Multicollinearity**
+
+Reduces model interpretability	Hard to tell which variable is actually affecting the output
+
+Inflates standard errors	Makes coefficients less reliable (can flip signs or seem insignificant)
+
+Causes unstable predictions	Small changes in data can cause big changes in model output
+
+**How to find multicollinearity**
+
+Correlation Matrix	Checks pairwise correlation between features
+
+VIF (Variance Inflation Factor)	Measures how much a feature is correlated with others — VIF > 5 or 10 is a red flag
+
 **Feature Selection using VIF(Variance Inflation Factor)**
 
+VIF = 1 / (1-R sqr)   
 
+if vif =1 , no correclation
 
+if vif is large, strong correlation
+
+vif>10 not recommended
