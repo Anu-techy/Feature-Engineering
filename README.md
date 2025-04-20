@@ -62,3 +62,5 @@ if vif =1 , no correclation
 if vif is large, strong correlation
 
 vif>10 not recommended
+
+Remove the features with high vif one by one
