@@ -25,6 +25,8 @@ Handling missing values	--   Fill missing "age" with average or use model-based 
 
 Feature selection	--  Keep only the most relevant features to reduce noise
 
+=====================================================================
+
 **Feature Selection using Correlation**
 
 For non linear relationships , one should not use correlation for feature selection
@@ -34,6 +36,8 @@ In the presence of outliers, one should not use correlation for feature selectio
 For categorical variables, correlation should not be used for feature selection     
 
 Understand r/p b/w causation vs correlation
+
+=====================================================
 
 **Multicollinearity** occurs when two or more independent variables (features) in a regression model are highly correlated with each other.
 
@@ -52,6 +56,8 @@ Causes unstable predictions	Small changes in data can cause big changes in model
 Correlation Matrix	Checks pairwise correlation between features
 
 VIF (Variance Inflation Factor)	Measures how much a feature is correlated with others — VIF > 5 or 10 is a red flag
+
+============================================================================
 
 **Feature Selection using VIF(Variance Inflation Factor)**
 
