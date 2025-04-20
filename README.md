@@ -27,3 +27,15 @@ Feature selection	--  Keep only the most relevant features to reduce noise
 
 **Feature Selection using Correlation**
 
+For non linear relationships , one should not use correlation for feature selection
+
+In the presence of outliers, one should not use correlation for feature selection
+
+For categorical variables, correlation should not be used for feature selection     
+
+Understand r/p b/w causation vs correlation
+
+**Feature Selection using VIF(Variance Inflation Factor)**
+
+
+
